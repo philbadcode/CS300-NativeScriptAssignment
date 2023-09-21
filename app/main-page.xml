@@ -16,5 +16,18 @@
         <Slider value="10" minValue="0" maxValue="100" loaded="onSliderLoaded" />
         <Label text="Toggle this switch!" />>
         <Switch checked="true" loaded="onSwitchLoaded" />
+        <Label text="Enter text!" />>
+        <TextField hint="Enter text" color="orangered" backgroundColor="lightyellow" />
+        <Label text="Pick time!" />>
+        <TimePicker
+            hour="10"
+            minute="25"
+            loaded="onPickerLoaded"
+            row="2"
+            col="0"
+            colSpan="2"
+            class="m-15"
+            verticalAlignment="center"
+        />
     </StackLayout>
 </Page>
