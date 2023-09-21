@@ -12,6 +12,9 @@
             clear="onClear"
             submit="onSubmit"
         />
+        <Label text="Slide this thing!" />>
         <Slider value="10" minValue="0" maxValue="100" loaded="onSliderLoaded" />
+        <Label text="Toggle this switch!" />>
+        <Switch checked="true" loaded="onSwitchLoaded" />
     </StackLayout>
 </Page>
